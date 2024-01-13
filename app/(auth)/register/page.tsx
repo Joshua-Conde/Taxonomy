@@ -7,7 +7,7 @@ import { UserAuthForm } from "@/components/user-auth-form"
 
 export const metadata = {
   title: "Create an account",
-  description: "Create an account to get started."
+  description: "Create an account to get started.",
 }
 
 export default function RegisterPage() {

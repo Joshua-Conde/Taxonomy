@@ -71,6 +71,13 @@ export const metadata = {
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
 }
+/*
+import type { Viewport } from 'next'
+
+export const viewport: Viewport = {
+  themeColor: 'black',
+}
+*/
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (

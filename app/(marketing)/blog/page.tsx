@@ -6,7 +6,7 @@ import { compareDesc } from "date-fns"
 import { formatDate } from "@/lib/utils"
 
 export const metadata = {
-  title: "Blog"
+  title: "Blog",
 }
 
 export default async function BlogPage() {
