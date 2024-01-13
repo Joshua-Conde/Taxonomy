@@ -1,20 +1,21 @@
 {
   "name": "taxonomy",
   "version": "0.2.0",
-  "private": true,
+  "scripts": {
+    "build": "contentlayer build && next build",
+    "dev": "concurrently \"contentlayer dev\" \"next dev\"",
+    "format": "prettier --write .",
+    "lint": "next lint",
+    "postinstall": "prisma generate",
+    "preview": "next build && next start",
+    "start": "next start",
+    "turbo": "next dev --turbo"
+  },
   "author": {
     "name": "shadcn",
     "url": "https://twitter.com/shadcn"
   },
-  "scripts": {
-    "dev": "concurrently \"contentlayer dev\" \"next dev\"",
-    "build": "contentlayer build && next build",
-    "turbo": "next dev --turbo",
-    "start": "next start",
-    "lint": "next lint",
-    "preview": "next build && next start",
-    "postinstall": "prisma generate"
-  },
+  "private": true,
   "dependencies": {
     "@editorjs/code": "^2.9.0",
     "@editorjs/editorjs": "^2.28.2",
