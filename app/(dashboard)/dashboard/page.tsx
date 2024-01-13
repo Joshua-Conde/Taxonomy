@@ -10,7 +10,7 @@ import { PostItem } from "@/components/post-item"
 import { DashboardShell } from "@/components/shell"
 
 export const metadata = {
-  title: "Dashboard",
+  title: "Dashboard"
 }
 
 export default async function DashboardPage() {

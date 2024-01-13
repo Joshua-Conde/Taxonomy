@@ -8,7 +8,7 @@ import { UserNameForm } from "@/components/user-name-form"
 
 export const metadata = {
   title: "Settings",
-  description: "Manage account and website settings.",
+  description: "Manage account and website settings."
 }
 
 export default async function SettingsPage() {

@@ -7,8 +7,9 @@ import { DocsPageHeader } from "@/components/page-header"
 
 export const metadata = {
   title: "Guides",
+
   description:
-    "This section includes end-to-end guides for developing Next.js 13 apps.",
+    "This section includes end-to-end guides for developing Next.js 13 apps."
 }
 
 export default function GuidesPage() {

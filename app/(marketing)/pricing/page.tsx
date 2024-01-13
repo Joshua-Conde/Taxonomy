@@ -5,7 +5,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
 
 export const metadata = {
-  title: "Pricing",
+  title: "Pricing"
 }
 
 export default function PricingPage() {
