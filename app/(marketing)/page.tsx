@@ -33,7 +33,7 @@ async function getGitHubStars(): Promise<string | null> {
 }
 
 export default async function IndexPage() {
-  const stars = await getGitHubStars()
+  // const stars = await getGitHubStars()
 
   return (
     <>
@@ -194,7 +194,7 @@ export default async function IndexPage() {
             </Link>
             .{" "}
           </p>
-          {stars && (
+          {/* stars && (
             <Link
               href={siteConfig.links.github}
               target="_blank"
@@ -218,7 +218,7 @@ export default async function IndexPage() {
                 </div>
               </div>
             </Link>
-          )}
+          ) */}
         </div>
       </section>
     </>
